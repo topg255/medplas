@@ -1,0 +1,16 @@
+{
+  
+  "scripts": {
+  
+    
+  "start:all": "concurrently \"npm --prefix auth start\" \"npm --prefix shell-application start\" \"npm --prefix pageIA start\" \"npm --prefix authClinic start\" \"npm --prefix authMedecin\" \"npm --prefix authRefMedecin start\" \"npm --prefix authadmin start\" "
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "concurrently": "^9.2.0"
+  
+  }
+}

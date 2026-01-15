@@ -1,0 +1,23 @@
+{
+  
+  "scripts": {
+  
+    
+  "start:all": "concurrently \"npm --prefix dentistry start\" \"npm --prefix HairTranspalant start\" \"npm --prefix ivf start\" \"npm --prefix medical start\" \"npm --prefix plasticsurgery start\"  "
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "concurrently": "^9.2.0"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "i18n": "^0.15.3"
+  
+  }
+}

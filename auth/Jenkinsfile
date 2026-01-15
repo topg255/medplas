@@ -1,0 +1,51 @@
+pipeline {
+    agent any
+
+    environment {
+        NODE_ENV = 'development'
+    }
+
+    tools {
+        nodejs 'NodeJS' // Assurez-vous que ce nom correspond à votre installation Node sur Jenkins
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        stage('Install dependencies') {
+            steps {
+                sh 'npm ci'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'npx webpack --config webpack.config.js --mode development'
+            }
+        }
+        stage('Archive Artifacts') {
+            steps {
+                archiveArtifacts artifacts: 'dist/**', fingerprint: true
+            }
+        }
+        // Stage de déploiement optionnel, à adapter selon vos besoins
+        stage('Deploy') {
+            when {
+                branch 'main'
+            }
+            steps {
+                // Exemple de déploiement via SCP (nécessite configuration des credentials Jenkins)
+                // Remplacez les valeurs par vos propres paramètres
+                // sh 'scp -r dist/* user@your-server:/path/to/deploy/'
+                echo 'Déploiement à configurer selon votre environnement'
+            }
+        }
+    }
+    post {
+        always {
+            cleanWs()
+        }
+    }
+}

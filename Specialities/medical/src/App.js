@@ -1,0 +1,64 @@
+import React, { useRef, useState, useEffect } from "react";
+import BR from './assets/br1.jpg';
+import C1 from './assets/C1.jpg';
+import FT1 from './assets/Ft1.jpg';
+import O1 from './assets/o1.jpg';
+import { motion } from "framer-motion";
+import { Footer } from './components/footer';
+import {EliteMedicalTravelCard} from "./components/3dCard";
+import { CurvedBackground } from './components/curvebackground'
+import { MedicalTourism } from './components/cars';
+
+
+export const Navbar = () => {
+    const testimonials = [
+        {
+            quote:
+                "Osteotomy is a surgical procedure that involves cutting and reshaping bones in the face. This procedure is often used to correct facial deformities, improve bite alignment, and enhance facial aesthetics.",
+            name: "Osteotomy",
+            src: O1,
+        },
+        {
+            quote:
+                "Our maxillofacial surgeons are highly skilled in treating facial trauma, including fractures, lacerations, and other injuries. We are dedicated to restoring facial function and aesthetics after an injury.",
+            name: "Facial Trauma",
+            src: FT1,
+        },
+        {
+            quote:
+                "Cranioplasty involves repairing or reconstructing the skull. This procedure is often performed to treat defects caused by trauma, surgery, or congenital conditions.",
+            name: "Cranioplasty",
+            src: C1,
+        },
+        {
+            quote:
+                "We provide comprehensive care for burn injuries, including reconstruction, wound care, and scar management. Our skilled surgeons work to restore function and minimize scarring.",
+            name: "Burns",
+            src: BR,
+        },
+    ];
+
+
+    return (
+
+        <>
+            {/* Top Navbar */}
+            <div className="w-full h-full bg-[#f8fbff]">
+
+                <CurvedBackground></CurvedBackground>
+
+                <EliteMedicalTravelCard ></EliteMedicalTravelCard >
+
+                <MedicalTourism />
+
+
+                <Footer></Footer>
+
+            </div>
+
+        </>
+
+    );
+};
+
+export default Navbar;

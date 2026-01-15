@@ -1,0 +1,16 @@
+{
+  
+  "scripts": {
+  
+    
+  "start:all": "concurrently \"npm --prefix additional start\" \"npm --prefix assistant start\" \"npm --prefix blogs start\" \"npm --prefix booking start\" \"npm --prefix tunisia start\" \"npm --prefix wikimed start\" "
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "concurrently": "^9.2.0"
+  
+  }
+}
