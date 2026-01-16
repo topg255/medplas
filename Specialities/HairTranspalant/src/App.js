@@ -1,4 +1,4 @@
-import '../i18n.js';
+import './i18n'
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Footer } from "./components/footer";

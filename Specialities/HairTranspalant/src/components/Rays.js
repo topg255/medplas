@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { cn } from "../../public/utils";
+import { cn } from "../utils";
 
 export const Rays = ({ className }) => {
   return (

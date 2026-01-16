@@ -1,5 +1,5 @@
 "use client";;
-import { cn } from "../../public/utils";
+import { cn } from "../utils";
 import React, {
   createContext,
   useState,
