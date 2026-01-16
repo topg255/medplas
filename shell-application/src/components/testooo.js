@@ -1,4 +1,4 @@
-import { cn } from "../../public/utils";
+import { cn } from "../utils/utils";
 import React from "react";
 
 export function Marquee({

@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect, useMemo, useCallback } from "react";
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
-import { cn } from "../../public/utils";
+import { cn } from "../utils/utils";
 import {
   IconStethoscope,
   IconMicroscope,

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { cn } from "../../public/utils";
+import { cn } from "../utils/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import { Marquee } from "./testooo";
 import P1 from '../assets/p1.jpg';

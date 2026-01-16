@@ -1,7 +1,7 @@
 "use client";
 import { useScroll, useTransform, motion, AnimatePresence, useSpring } from "framer-motion";
 import React, { useEffect, useRef, useState, useMemo, useCallback } from "react";
-import { cn } from "../../public/utils";
+//import { cn } from "../utils/utils";
 import {
   IconSearch,
   IconCalendarEvent,
