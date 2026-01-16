@@ -6,7 +6,7 @@ import { FaClinicMedical, FaHeartbeat } from 'react-icons/fa';
 import { MdOutlineMedicalServices } from 'react-icons/md';
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
-import { setLoading, setError, setSuccessMessage, resetStatus } from '../../../redux/authslice';
+//import { setLoading, setError, setSuccessMessage, resetStatus } from '../../../redux/authslice';
 import medicalImage from '../../assets/bousid.jpg';
 
 const ForgotPassword = () => {
