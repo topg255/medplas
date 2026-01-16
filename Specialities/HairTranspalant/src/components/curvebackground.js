@@ -30,7 +30,7 @@ export const CurvedBackground = () => {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const goToHome = () => {
-    window.location.href = "http://localhost:3020/";
+    window.location.href = "https://topg255-medplas-c73h.vercel.app/";
   };
 
   useEffect(() => {

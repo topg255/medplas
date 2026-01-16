@@ -27,9 +27,9 @@ const menuItems = [
         options: [
             { label: "clip_plastic_surgery", path: "http://localhost:3031/", icon: <FaCut className="text-yellow-500" /> },
             { label: "clip_dentistry", path: "http://localhost:3070/", icon: <FaTooth className="text-blue-500" /> },
-            { label: "clip_ivf", path: "http://localhost:3029/", icon: <FaBaby className="text-rose-500" /> },
+            { label: "clip_ivf", path: "https://topg255-medplas-drj5.vercel.app/", icon: <FaBaby className="text-rose-500" /> },
             { label: "clip_healthy_holiday", path: "http://localhost:3030/", icon: <FaClinicMedical className="text-green-500" /> },
-            { label: "clip_hair_transplant", path: "http://localhost:3028/", icon: <FaCut className="text-orange-500" /> }
+            { label: "clip_hair_transplant", path: "https://topg255-medplas-q77k.vercel.app/", icon: <FaCut className="text-orange-500" /> }
         ]
     },
     {

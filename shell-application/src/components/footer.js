@@ -31,8 +31,8 @@ export const Footer = () => {
     const specialties = [
         { name: t('plastic_surgery'), path: "http://localhost:3031/" },
         { name: t('dentistry'), path: "http://localhost:3070/" },
-        { name: t('hair_transplant'), path: "http://localhost:3028/" },
-        { name: t('ivf'), path: "http://localhost:3029/" },
+        { name: t('hair_transplant'), path: "https://topg255-medplas-q77k.vercel.app/" },
+        { name: t('ivf'), path: "https://topg255-medplas-drj5.vercel.app/" },
         { name: t('healthy_holiday'), path: "http://localhost:3030/" },
     ];
 

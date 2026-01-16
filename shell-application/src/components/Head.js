@@ -239,25 +239,25 @@ const MobileMenu = ({ isOpen, setIsOpen, openDropdown, setOpenDropdown, isAuthen
     const signupOptions = [
         {
             label: t("Sign up as Patient"),
-            path: "http://localhost:3021/patient",
+            path: "https://medplas.vercel.app/#/signup",
             icon: <FiUser className="text-blue-500" />,
             description: "For patients seeking care"
         },
         {
             label: t("Sign up as Doctor"),
-            path: "http://localhost:3023/?type=doctor",
+            path: "https://topg255-medplas-wehp.vercel.app/#/signup",
             icon: <FaUserMd className="text-green-500" />,
             description: "For medical professionals"
         },
         {
             label: t("Sign up as Clinic"),
-            path: "http://localhost:3022/?type=clinic",
+            path: "https://topg255-medplas-h4kr.vercel.app/#/signup",
             icon: <FaHospital className="text-purple-500" />,
             description: "For medical facilities"
         },
         {
             label: t("Sign up as Ref Doctor"),
-            path: "http://localhost:3024/?type=ref_doctor",
+            path: "https://topg255-medplas-s6dy.vercel.app/",
             icon: <FaUserTie className="text-orange-500" />,
             description: "For referring physicians"
         }
@@ -266,25 +266,25 @@ const MobileMenu = ({ isOpen, setIsOpen, openDropdown, setOpenDropdown, isAuthen
     const loginOptions = [
         {
             label: t("Login as Patient"),
-            path: "http://localhost:3021/#/login_patient",
+            path: "https://medplas.vercel.app/#/login_patient",
             icon: <FiUser className="text-blue-500" />,
             description: "Access patient portal"
         },
         {
             label: t("Login as Doctor"),
-            path: "http://localhost:3023/#/login_medecin",
+            path: "https://topg255-medplas-wehp.vercel.app/",
             icon: <FaUserMd className="text-green-500" />,
             description: "Access medical dashboard"
         },
         {
             label: t("Login as Clinic"),
-            path: "http://localhost:3022/#/login_clinic",
+            path: "https://topg255-medplas-h4kr.vercel.app/",
             icon: <FaHospital className="text-purple-500" />,
             description: "Manage clinic operations"
         },
         {
             label: t("Login as Ref Doctor"),
-            path: "http://localhost:3024/#/login_RefDoctor",
+            path: "https://topg255-medplas-s6dy.vercel.app/#/login_RefDoctor",
             icon: <FaUserTie className="text-orange-500" />,
             description: "Referral management"
         }
