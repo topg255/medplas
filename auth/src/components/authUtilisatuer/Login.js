@@ -31,7 +31,7 @@ function MedicalTouristLogin() {
   const [errors, setErrors] = useState({ email: '', password: '', general: '' });
 
   const navigate = useNavigate();
-  const dispatch = useDispatch();
+  //const dispatch = useDispatch();
 
   const images = [
     {
@@ -119,7 +119,7 @@ function MedicalTouristLogin() {
       localStorage.setItem('role', user.role);
 
       // Dispatch user to Redux
-      dispatch(setUser(user));
+      //dispatch(setUser(user));
 
       // Open MF2 in a new tab
       const newTab = window.open('http://localhost:3020', '_blank');
