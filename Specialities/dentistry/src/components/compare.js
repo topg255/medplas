@@ -2,7 +2,7 @@
 import React, { useState, useRef, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "../../public/utils";
+import { cn } from "../utils";
 import { IconMicroscope } from "@tabler/icons-react";
 import { MemoizedMedicalSparkles } from "./sparkless";
 

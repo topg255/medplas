@@ -1,5 +1,5 @@
 "use client";
-import '../i18n.js';
+import './i18n.js';
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {

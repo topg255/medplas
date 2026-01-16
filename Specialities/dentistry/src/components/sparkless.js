@@ -2,7 +2,7 @@
 import React, { useId, useEffect, useState } from "react";
 import { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import { cn } from "../../public/utils";
+import { cn } from "../utils";
 import { motion, useAnimation } from "framer-motion";
 
 export const MemoizedMedicalSparkles = (props) => {

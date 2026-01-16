@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "../../public/utils";
+//import { cn } from "../utils";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import backgroundImage from '../assets/dt2.jpg';

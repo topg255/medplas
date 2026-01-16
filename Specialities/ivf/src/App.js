@@ -1,4 +1,4 @@
-import '../i18n.js';
+import './i18n.js';
 import React, { useRef, useState, useEffect } from "react";
 import Image from '../src/assets/pl1.jpg';
 import Image1 from '../src/assets/pl2.jpg';
