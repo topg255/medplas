@@ -12,8 +12,8 @@ import medicalHero from '../../assets/ksar.jpg';
 import hospitalFacility from '../../assets/bouzid.png';
 import recoveryResort from '../../assets/tozeur.jpg';
 import medicalTeam from '../../assets/sousse.jpg';
-import { useDispatch } from 'react-redux';
-import { setUser } from '../../../redux/authslice';
+//import { useDispatch } from 'react-redux';
+//import { setUser } from '../../../redux/authslice';
 
 // Animation variants for errors
 const errorVariants = {
