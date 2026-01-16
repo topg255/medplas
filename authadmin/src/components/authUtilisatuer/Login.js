@@ -19,7 +19,7 @@ import hospitalFacility from '../../assets/bouzid.png';
 import recoveryResort from '../../assets/tozeur.jpg';
 import medicalTeam from '../../assets/sousse.jpg'
 import { useDispatch } from 'react-redux';
-import { setUser } from '../../../redux/authslice'; // adapte le chemin si besoin
+import { setUser } from '../../redux/authslice'; // adapte le chemin si besoin
 
 
 function MedicalTouristLogin() {

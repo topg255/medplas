@@ -12,7 +12,7 @@ import clinicImage1 from './assets/clinic.jpg';
 import clinicImage2 from './assets/clinic2.jpg';
 import clinicImage3 from './assets/clinic3.jpg';
 import { useDispatch } from 'react-redux';
-import { setUser } from '../redux/authslice'
+import { setUser } from './redux/authslice';
 
 const RegisterClinic = () => {
     const [email, setEmail] = useState('');

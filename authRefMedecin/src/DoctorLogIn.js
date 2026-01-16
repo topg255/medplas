@@ -19,7 +19,7 @@ import hospitalFacility from './assets/medical1.jpg';
 import recoveryResort from './assets/medical3.jpg';
 import medicalTeam from './assets/medical4.jpg'
 import { useDispatch } from 'react-redux';
-import { setUser } from '../redux/authslice'
+import { setUser } from './redux/authslice'
 
 function Login() {
   const [email, setEmail] = useState('');
