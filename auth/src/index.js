@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import { store } from '../redux/store'; // adapte le chemin
+import { store } from './redux/store'; // adapte le chemin
 
 import MedicalTouristLogin from './components/authUtilisatuer/Login';
 import SignIn from './components/authUtilisatuer/SignIn';
