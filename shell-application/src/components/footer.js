@@ -145,7 +145,7 @@ export const Footer = () => {
                                         Sousse, centre ville, 4000
                                     </a>
                                 </motion.li>
-                                <motion.li
+                                {/*<motion.li
                                     whileHover={{ x: 5 }}
                                     transition={{ type: "spring", stiffness: 300 }}
                                     className="flex items-start space-x-3"
@@ -157,7 +157,7 @@ export const Footer = () => {
                                     >
                                         +216 52-408-822
                                     </a>
-                                </motion.li>
+                                </motion.li>*/}
                             </ul>
                         </div>
                     </motion.div>
