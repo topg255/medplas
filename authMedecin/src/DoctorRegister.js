@@ -22,7 +22,7 @@ import {
   Info,
   AlertCircle
 } from "lucide-react";
-import Image from "../src/assets/medical2.jpg";
+import Image from "../src/assets/medical1.jpg";
 import Image1 from "../src/assets/medical3.jpg";
 import Image2 from "../src/assets/medical4.jpg";
 import { useNavigate } from "react-router-dom";
