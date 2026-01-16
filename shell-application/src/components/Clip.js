@@ -273,11 +273,11 @@ export const StaggeredDropDown = () => {
                         setTimeout(() => clearInterval(interval), 4000);
                     }
                 },
-                { label: "IVF", path: "http://localhost:3029/", icon: <FaBaby className="text-blue-500" /> },
+                { label: "IVF", path: "https://topg255-medplas-drj5.vercel.app/", icon: <FaBaby className="text-blue-500" /> },
                 { label: "Healthy holiday", path: "http://localhost:3030/", icon: <FaClinicMedical className="text-blue-500" /> },
                 {
                     label: "Hair transplant",
-                    path: "http://localhost:3028/",
+                    path: "https://topg255-medplas-q77k.vercel.app/",
                     icon: <FaCut className="text-blue-500" />,
                     onClick: () => {
                         // Récupérer les tokens et données utilisateur depuis localStorage

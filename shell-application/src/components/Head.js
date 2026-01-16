@@ -1150,11 +1150,11 @@ export const Curved = () => {
                         setTimeout(() => clearInterval(interval), 4000);
                     }
                 },
-                { label: t("IVF"), path: "http://localhost:3029/", icon: <FaBaby className="text-blue-500" /> },
+                { label: t("IVF"), path: "https://topg255-medplas-drj5.vercel.app/", icon: <FaBaby className="text-blue-500" /> },
                 { label: t("Healthy holiday"), path: "http://localhost:3030/", icon: <FaClinicMedical className="text-blue-500" /> },
                 {
                     label: t("Hair transplant"),
-                    path: "http://localhost:3028/",
+                    path: "https://topg255-medplas-q77k.vercel.app/",
                     icon: <FaCut className="text-blue-500" />,
                     onClick: () => {
                         const accessToken = localStorage.getItem("accessToken");
