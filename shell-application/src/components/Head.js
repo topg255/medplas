@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useSelector } from 'react-redux';
+//import { useSelector } from 'react-redux';
 import Da from "../assets/vidoe.mp4";
 import { motion, AnimatePresence } from "framer-motion";
 import Logo from '../assets/Plasfora white.png'
