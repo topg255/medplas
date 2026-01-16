@@ -3,7 +3,10 @@
   "scripts": {
   
     
-  "start:all": "concurrently \"npm --prefix dentistry start\" \"npm --prefix HairTranspalant start\" \"npm --prefix ivf start\" \"npm --prefix medical start\" \"npm --prefix plasticsurgery start\"  "
+  "start:all": "concurrently \"npm --prefix dentistry start\" \"npm --prefix HairTranspalant start\" \"npm --prefix ivf start\" \"npm --prefix medical start\" \"npm --prefix plasticsurgery start\"  ",
+  
+    
+  "build": "react-scripts build"
   
   },
   
@@ -17,7 +20,10 @@
   "dependencies": {
   
     
-  "i18n": "^0.15.3"
+  "i18n": "^0.15.3",
+  
+    
+  "react-scripts": "^5.0.1"
   
   }
 }

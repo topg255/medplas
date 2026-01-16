@@ -3,7 +3,10 @@
   "scripts": {
   
     
-  "start:all": "concurrently \"npm --prefix additional start\" \"npm --prefix assistant start\" \"npm --prefix blogs start\" \"npm --prefix booking start\" \"npm --prefix tunisia start\" \"npm --prefix wikimed start\" "
+  "start:all": "concurrently \"npm --prefix additional start\" \"npm --prefix assistant start\" \"npm --prefix blogs start\" \"npm --prefix booking start\" \"npm --prefix tunisia start\" \"npm --prefix wikimed start\" ",
+  
+    
+  "build": "react-scripts build"
   
   },
   
@@ -11,6 +14,13 @@
   
     
   "concurrently": "^9.2.0"
+  
+  },
+  
+  "dependencies": {
+  
+    
+  "react-scripts": "^5.0.1"
   
   }
 }
